@@ -3,11 +3,11 @@ TUTORIAL_CALL, 0xA40, 8, -game:FE8 -indexMode:8
 
 _MUSICSOMETHING, 0x1321, 4, -game:FE8 -indexMode:8
 	Something, 2, 2, -preferredBase:10 -signed
-	
+
 _WARP, 0x2F48, 8, -game:FE8 -indexMode:8
 	Unknown1, 2, 2
 	Unknown2, 4, 2
-	Position, 6, 2, coordinates:2 -preferredBase:10
+	Position, 6, 2, -coordinates:2 -preferredBase:10
 
 #Music related codes?
 #Cuts off music instantly and hangs
@@ -88,7 +88,7 @@ _0x9B40, 0x9B40, 8, -game:FE8 -indexMode:8
 	Value2, 4, 2
 #Always zero
 	Value3, 6, 2
-	
+
 _0x9D40, 0x9D40, 8, -game:FE8 -indexMode:8
 	Value1, 2, 2
 	Value2, 4, 2
@@ -99,13 +99,13 @@ _0xA640, 0xA640, 8, -game:FE8 -indexMode:8
 	Value1, 2, 2
 	Value2, 4, 2
 	Value3, 6, 2
-	
+
 _0xAA40, 0xAA40, 8, -game:FE8 -indexMode:8
 	Value1, 2, 2
 	Value2, 4, 2
 #Always 0
 	Value3, 6, 2
-	
+
 _0xAB40, 0xAB40, 8, -game:FE8 -indexMode:8
 	Value1, 2, 2
 	Value2, 4, 2
@@ -121,7 +121,7 @@ _0x3427, 0x3427, 4, -game:FE8 -indexMode:8
 	Character, 2, 2
 
 #backwards compatibility, use SMOD instead
-SLOTS_UNKNOWN, 0x0624, 4, -game:FE8 -indexMode:8
+SLOTS_UNKNOWN, 0x0624, 4, -game:FE8 -indexMode:8 -noDisassembly
 	Slots, 2, 2
 
 #Stores parameter to $03000010.
