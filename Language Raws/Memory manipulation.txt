@@ -5,6 +5,10 @@
 
 # One of the best features of FE8 eventing
 # Allows you to set, get and manipulate temporary values
+# There are 14 of them
+# the first one (s0) holds a constant 0 and the last 3 (sB, sC, sD) often having special meaning.
+# Those are not kept between events and suspends (unlike eids or counters).
+# Many codes can read from them (usually s1, s2, s3 or sB) which is where those are most useful.
 
 ## Sets slot value
 SVAL, 0x0540, 8, -game:FE8 -indexMode:8
@@ -133,6 +137,7 @@ SLSR, 0x0629, 4, -game:FE8 -indexMode:8
 # Those codes operate on the event slot queue.
 # It can be used with several event codes
 # typicially when you need to declare some kind of list
+# Like slots, the event queue is temporary and isn't kept between events and suspends.
 
 ## Enqueues given slot value
 SENQUEUE, 0x0720, 4, -game:FE8 -indexMode:8
