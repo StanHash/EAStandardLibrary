@@ -11,6 +11,11 @@ SVAL, 0x0540, 8, -game:FE8 -indexMode:8
 	Slot, 2, 2
 	Value, 4, 4
 
+## Sets slot value (alias)
+SMOV, 0x0540, 8, -game:FE8 -indexMode:8
+	Slot, 2, 2
+	Value, 4, 4
+
 ## Sets slot value to an address
 SPTR, 0x0540, 8, -game:FE8 -indexMode:8
 	Slot, 2, 2
