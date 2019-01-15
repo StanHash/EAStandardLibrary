@@ -21,22 +21,34 @@ CAM2, 0x1F, 4, -game:FE7 -indexMode:8
 	Position, 2, 2, -coordinates:2 -preferredBase:10
 
 ## Moves camera on given coordinates
-CAM, 0x2620, 4, -game:FE8 -indexMode:8
+CAMERA, 0x2620, 4, -game:FE8 -indexMode:8
 	Position, 2, 2, -coordinates:2 -preferredBase:10
 
-## Moves camera on coordinates in sB
-CAM_SB, 0x2620, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed
-
 ## Moves camera on given character
-CAM, 0x2621, 4, -game:FE8 -indexMode:8
+CAMERA, 0x2621, 4, -game:FE8 -indexMode:8
 	Character, 2, 2
 
-# for compat
+## Moves camera on coordinates in sB
+CAMERA_SB, 0x2620, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+## Moves camera on given coordinates
+CAMERA2, 0x2628, 4, -game:FE8 -indexMode:8
+	Position, 2, 2, -coordinates:2 -preferredBase:10
+
+## Moves camera on given character
+CAMERA2, 0x2629, 4, -game:FE8 -indexMode:8
+	Character, 2, 2
+
+## Moves camera on coordinates in sB
+CAMERA2_SB, 0x2628, 4, -game:FE8 -indexMode:8
+	0xFFFF, 2, 2, -fixed
+
+# for compat, use CAMERA
 CAM1, 0x2628, 4, -game:FE8 -indexMode:8
 	Position, 2, 2, -coordinates:2 -preferredBase:10
 
-# for compat
+# for compat, use CAMERA
 CAM1, 0x2621, 4, -game:FE8 -indexMode:8
 	Character, 2, 2
 
