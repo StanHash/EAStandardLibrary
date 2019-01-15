@@ -217,8 +217,6 @@ V3.3
 
 #include "EA Standard Library/Convo Background Definitions.txt"
 
-#include "EA Standard Library/Chapter Definitions.txt"
-
 #include "EA Standard Library/Music Definitions.txt"
 
 #include "EA Standard Library/End Of Chapter Helpers.txt"
