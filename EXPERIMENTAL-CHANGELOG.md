@@ -16,3 +16,4 @@ This is a list of things that the experimental branch has changed from the offic
   - `SETVAL`, `SLOTS_LEFTSHIFT` and `SLOTS_RIGHTSHIFT` are deprecated and now require `BACKWARDS_COMPATIBILITY` (Stan).
 - Fixed `TurnEventNPC` macros for FE8 (Sme).
 - Fixed typo in Seize eid definition (kept `SiezeID` for compatibility) (Sme).
+- Add FE8 `NOP` which does nothing, for completeness (Stan).
