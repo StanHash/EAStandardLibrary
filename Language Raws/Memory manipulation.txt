@@ -15,11 +15,6 @@ SVAL, 0x0540, 8, -game:FE8 -indexMode:8
 	Slot, 2, 2
 	Value, 4, 4
 
-## Sets slot value (alias)
-SMOV, 0x0540, 8, -game:FE8 -indexMode:8
-	Slot, 2, 2
-	Value, 4, 4
-
 ## Sets slot value to an address
 SPTR, 0x0540, 8, -game:FE8 -indexMode:8
 	Slot, 2, 2
@@ -148,17 +143,6 @@ SENQUEUE, 0x0721, 4, -game:FE8 -indexMode:8
 
 ## Dequeues value into given slot
 SDEQUEUE, 0x0722, 4, -game:FE8 -indexMode:8
-	SlotIndex, 2, 2
-
-# Backwards-compatible version of SENQUEUE
-STQFROMSLOT, 0x720, 4, -game:FE8 -indexMode:8
-	SlotIndex, 2, 2
-
-# Backwards-compatible version of SENQUEUE
-SAVETOQUEUE, 0x721, 4, -game:FE8 -indexMode:8
-
-# Backwards-compatible version of SDEQUEUE
-SLOTS_SETFROMQUEUE, 0x0722, 4, -game:FE8 -indexMode:8
 	SlotIndex, 2, 2
 
 # ==================

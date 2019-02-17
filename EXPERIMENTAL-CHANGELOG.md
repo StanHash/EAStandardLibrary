@@ -18,3 +18,4 @@ This is a list of things that the experimental branch has changed from the offic
 - Fixed typo in Seize eid definition (kept `SiezeID` for compatibility) (Sme).
 - Add `CAMERA` and `CAMERA2` as replacements to old `CAM1` (Stan).
 - Add FE8 `NOP` which does nothing, for completeness (Stan).
+- Move (hopefully) all FE8 alternate code names to new stdlib file `Code Aliases.txt`, which is only included when `EA_STDLIB_STRICT` is not defined (Stan).

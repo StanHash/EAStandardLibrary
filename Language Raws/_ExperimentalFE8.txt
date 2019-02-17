@@ -105,15 +105,10 @@ _0xAB40, 0xAB40, 8, -game:FE8 -indexMode:8
 
 _0xC220, 0xC220, 4, -game:FE8 -indexMode:8
 
-
 #Uni condition codes
 #Can hang the game, don't use this
 _0x3427, 0x3427, 4, -game:FE8 -indexMode:8
 	Character, 2, 2
-
-#backwards compatibility, use SMOD instead
-SLOTS_UNKNOWN, 0x0624, 4, -game:FE8 -indexMode:8 -noDisassembly
-	Slots, 2, 2
 
 #Stores parameter to $03000010.
 STORETOSOMETHING, 0x1120, 4, -game:FE8 -indexMode:8

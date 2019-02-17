@@ -241,12 +241,15 @@ V3.3
 #include "EA Standard Library/Backward Compatibility.txt"
 #endif
 
+#ifndef EA_STDLIB_STRICT
+#include "EA Standard Library/Code Aliases.txt"
+#endif // EA_STDLIB_STRICT
+
 #ifdef _FE7_
 #ifdef DISABLE_TUTORIALS
 #include "EA Standard Library/FE7 Tutorial Disabler.txt"
 #endif
 #endif
-
 
 #ifdef _FE6_
 #ifndef _NO_FE6_DEFINITIONS_
