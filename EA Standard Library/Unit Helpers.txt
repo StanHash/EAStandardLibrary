@@ -69,6 +69,16 @@
 #define DunnoFlag2 8
 #endif
 
+#ifdef _FE8_
+
+// LOAD parameters
+
+#define LoadAlive    0
+#define LoadAll      1
+#define LoadCutscene 2
+
+#endif
+
 //Unit condition helpers
 #ifdef _FE7_
 #define Visible 1
