@@ -22,3 +22,4 @@ This is a list of things that the experimental branch has changed from the offic
 - Add FE8 `LoadAlive`, `LoadAll` and `LoadCutscene` definitions to stdlib for use with FE8 `LOAD` codes (Stan).
 - Add `Extensions/PopupDefinitions.txt`
 - Replace `TUTORIAL_CALL` with `CALL_S2`.
+- Add a lot of aliases for FE8 codes (see [`FE8StanAliases.txt`](./Language%20Raws/FE8StanAliases.txt))
