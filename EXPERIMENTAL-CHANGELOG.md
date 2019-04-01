@@ -21,3 +21,4 @@ This is a list of things that the experimental branch has changed from the offic
 - Move (hopefully) all FE8 alternate code names to new stdlib file `Code Aliases.txt`, which is only included when `EA_STDLIB_STRICT` is not defined (Stan).
 - Add FE8 `LoadAlive`, `LoadAll` and `LoadCutscene` definitions to stdlib for use with FE8 `LOAD` codes (Stan).
 - Add `Extensions/PopupDefinitions.txt`
+- Replace `TUTORIAL_CALL` with `CALL_S2`.
