@@ -1,6 +1,3 @@
-TUTORIAL_CALL, 0xA40, 8, -game:FE8 -indexMode:8
-	0xFFFFFFFF, 4, 4, -fixed
-
 _MUSICSOMETHING, 0x1321, 4, -game:FE8 -indexMode:8
 	Something, 2, 2, -preferredBase:10 -signed
 
