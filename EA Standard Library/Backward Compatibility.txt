@@ -84,4 +84,6 @@
 
 #define TUTORIAL_CALL CALL_S2
 
+#define LOAD_SLOT1 LOAD_S2
+
 #endif
