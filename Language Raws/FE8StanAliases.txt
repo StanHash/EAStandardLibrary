@@ -471,8 +471,8 @@ WARPIN_SB, 0x4121, 4, -game:FE8 -indexMode:8
 ENDWARP, 0x412F, 4, -game:FE8 -indexMode:8
 
 EARTHQUAKE, 0x4220, 4, -game:FE8 -indexMode:8
-	ShakeDirection, 1, 1, -preferredBase:10
-	PlaySoundBool,  1, 1, -preferredBase:10
+	ShakeDirection, 2, 1, -preferredBase:10
+	PlaySoundBool,  3, 1, -preferredBase:10
 
 ## Displays summoning animation on the given character
 SUMMONUNIT, 0x4320, 4, -game:FE8 -indexMode:8
