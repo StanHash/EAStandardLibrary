@@ -49,5 +49,5 @@ ITGM,0x5b, 8, -game:FE7J -indexMode:8
 	Item, 4, 2
 ITGV,0x59, 8, -game:FE7J -indexMode:8
 	Item, 4, 2
-SHLI,0x0, 0, -game:FE6:FE7J:FE8 -indexMode:8 -terminatingList:00 -end -priority:shopList -offsetMod:1
+SHLI,0x0, 0, -game:FE7J -indexMode:8 -terminatingList:00 -end -priority:shopList -offsetMod:1
 	Item, 0, 2

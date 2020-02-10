@@ -10,7 +10,7 @@ with open(filename) as f_in:
     for i, l in enumerate(lines):
         if "FE7" in l:
             codes = l.split(',')
-            codes[3] = codes[3].replace("FE7", "FE7J")
+            codes[3] = codes[3].replace(":FE7", ":FE7J").replace(":FE6", "").replace(":FE8", "")
             index = int(codes[1].strip(), 16)
             if index == 0xe2:
                 index = 0xe4

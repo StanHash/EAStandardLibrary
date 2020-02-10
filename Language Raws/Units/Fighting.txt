@@ -155,5 +155,5 @@ FIGH,0x95, 20, -game:FE7J -indexMode:8
 	Attacker, 4, 2
 BLDT,0x0, 32, -game:FE7J -priority:battleData -indexMode:1
 	Critical, 0, 1, -preferredBase:2
-BLDT,0x0, 4, -game:FE6:FE7J -indexMode:8 -priority:battleData -end
+BLDT,0x0, 4, -game:FE7J -indexMode:8 -priority:battleData -end
 	0x800000, 0, 4, -fixed

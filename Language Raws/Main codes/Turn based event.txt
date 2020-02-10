@@ -67,5 +67,5 @@ TURN,0x2, 128, -priority:main -language:FE7J
 	ID, 16, 16,
 TURN,0x2, 128, -priority:main -language:FE7J
 	ID, 16, 16,
-TURN,0x0, 4, -priority:main -language:FE6:FE7J -end -indexMode:8 -noDisassembly
+TURN,0x0, 4, -priority:main -language:FE7J -end -indexMode:8 -noDisassembly
 	0, 0, 4, -fixed

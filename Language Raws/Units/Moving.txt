@@ -135,5 +135,5 @@ REPOS,0x2c, 12, -game:FE7J -indexMode:8
 	Old position, 4, 4, -coordinate:2 -preferredBase:10 -signed
 REPOS,0x2d, 12, -game:FE7J -indexMode:8
 	Character, 4, 4
-MOMA,0x0, 1, -game:FE6:FE7J -indexMode:8 -terminatingList:04 -end -priority:moveManual -offsetMod:1
+MOMA,0x0, 1, -game:FE7J -indexMode:8 -terminatingList:04 -end -priority:moveManual -offsetMod:1
 	Action, 0, 1
