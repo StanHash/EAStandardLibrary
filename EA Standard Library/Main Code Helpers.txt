@@ -100,9 +100,17 @@
 #endif
 
 #ifdef _FE7_
+#ifndef _FE7J_
 #define CauseGameOverIfLordDies "AFEV 0 0xCA749C 0x65"
+#endif
 #define DefeatBoss(offset) "AFEV 0 offset 2"
+#ifndef _FE7J_
 #define DefeatAll(offset) "ASME 0 offset $79FE9"
+#endif
+#endif
+
+#ifdef _FE7J_
+#define DefeatAll(offset) "ASME 0 offset $7AA5D"
 #endif
 
 #ifdef _FE8_

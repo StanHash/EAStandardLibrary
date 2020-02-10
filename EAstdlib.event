@@ -15,10 +15,11 @@
 //#define EA_STDLIB_VERSION_3_0 //Crazycolorz5's edits
 //#define EA_STDLIB_VERSION_3_1
 //#define EA_STDLIB_VERSION_3_2
-#define EA_STDLIB_VERSION_3_3
+//#define EA_STDLIB_VERSION_3_3
+#define EA_STDLIB_VERSION_3_4
 
 /****************************************************************\
-Version 3.3 
+Version 3.4 
 
 How to use EA standard library:
  Include this file, EAstdlib.event, to your code.
@@ -195,7 +196,14 @@ V3.2
 V3.3
 -FE6,FE7: Added old definitions (spears, etc) through BACKWARDS_COMPATIBILITY.
 
+V3.4
+-FE7J: First commit.
+
 \****************************************************************/
+
+#ifdef _FE7J_
+#define _FE7_
+#endif
 
 #include "EA Standard Library/Boolean Logic.txt"
 
