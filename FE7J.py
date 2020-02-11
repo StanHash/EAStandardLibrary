@@ -29,5 +29,7 @@ with open(filename) as f_in:
             codes[1] = hex(index)
             s = ","
             print(s.join(codes))
-            if i < len(lines) - 1 and "FE" not in lines[i + 1]:
-                print(lines[i + 1])
+            j = i + 1
+            while j < len(lines) and "FE" not in lines[j]:
+                print(lines[j])
+                j += 1

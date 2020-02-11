@@ -88,6 +88,8 @@ MUSS,0x77, 4, -game:FE7J -indexMode:8
 	Music ID, 2, 2
 MUSM,0x79, 8, -game:FE7J -indexMode:8
 	Music ID, 2, 2
+	Fade in speed, 4, 1
+	0, 5, 3, -fixed
 SOUN,0x7d, 4, -game:FE7J -indexMode:8
 	Music ID, 2, 2
 MURE,0x78, 4, -game:FE7J -indexMode:8

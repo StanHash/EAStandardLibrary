@@ -50,7 +50,9 @@ SHCG,0xd6, 4, -game:FE7J -indexMode:8
 	Cutscene, 2, 2
 FROMCGTOBG,0xdd, 12, -game:FE7J -indexMode:8
 	Background, 4, 4
+	Value2, 8, 4
 FROMBGTOCG,0xde, 12, -game:FE7J -indexMode:8
 	Cutscene, 4, 4
+	Value2, 8, 4
 FROMCGTOMAP,0xdf, 8, -game:FE7J -indexMode:8
 	Map position, 4, 2, -coordinates:2  -preferredBase:10
