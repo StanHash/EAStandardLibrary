@@ -110,6 +110,7 @@
 #endif
 
 #ifdef _FE7J_
+#define CauseGameOverIfLordDies "AFEV 0 0xD6F71C 0x65"
 #define DefeatAll(offset) "ASME 0 offset $7AA5D"
 #endif
 
