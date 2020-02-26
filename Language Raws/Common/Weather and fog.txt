@@ -1,4 +1,0 @@
-
-#Chapters: 20A
-WEA1, 0x4C, 8, -game:FE6 -indexMode:8
-	Weather type ID, 4, 4

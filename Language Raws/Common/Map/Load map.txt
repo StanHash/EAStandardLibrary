@@ -1,8 +1,0 @@
-
-#Chapters: 8, 8x, 10B
-##Loads a new map mid-event.
-LOMA, 0x3F, 16, -game:FE6 -indexMode:8
-##Chapter whose map to load.
-	Chapter ID, 4, 4
-##Starting position of the camera on the new map.
-	Position, 8, 8, -coordinates:2 -preferredBase:10
