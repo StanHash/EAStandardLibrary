@@ -8,7 +8,13 @@
 #ifdef _FE7_
 #define Text(text) "TEX1 text; REMA"
 #define Text(background,text) "FADI 0x10; HIDEMAP; BACG background; FADU 0x10; SHOWMAP; TEX1 text; REMA"
+#ifndef _FE7J_
 #define ClearBrownBox "_ASM0x42 0x83181"
+#endif
+#endif
+
+#ifdef _FE7J_
+#define ClearBrownBox "_ASM0x42 0x83B81"
 #endif
 
 #ifdef _FE8_
@@ -34,5 +40,11 @@
 
 //Shows text on a scroll
 #ifdef _FE7_
+#ifndef _FE7J_
 #define ScrollText(textID) "TEX6 7 [0,0] textID; _ASM0x42 $83181; _0x89"
+#endif
+#endif
+
+#ifdef _FE7J_
+#define ScrollText(textID) "TEX6 7 [0,0] textID; _ASM0x42 $83B81; _0x89"
 #endif
