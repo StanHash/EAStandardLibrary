@@ -70,6 +70,18 @@ STAL3, 0x0E23, 4, -game:FE8 -indexMode:8
 EVBIT_MODIFY, 0x1020, 4, -game:FE8 -indexMode:8
 	Operation to perform, 2, 2
 
+FADU, 0x1720, 4, -game:FE8 -indexMode:8
+	Fade time, 2, 2, -preferredBase:10
+
+FADI, 0x1721, 4, -game:FE8 -indexMode:8
+	Fade time, 2, 2, -preferredBase:10
+
+FAWU, 0x1722, 4, -game:FE8 -indexMode:8
+	Fade time, 2, 2, -preferredBase:10
+
+FAWI, 0x1723, 4, -game:FE8 -indexMode:8
+	Fade time, 2, 2, -preferredBase:10
+
 STARTFADE, 0x1860, 12, -game:FE8 -indexMode:8
 
 ENDFADE, 0x1861, 12, -game:FE8 -indexMode:8
