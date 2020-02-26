@@ -186,6 +186,10 @@ ENUT_SLOT2, 0x0229, 4, -game:FE8 -indexMode:8
 CHECK_EVENTID, 0x0321, 4, -game:FE8 -indexMode:8
 	Flag, 2, 2
 
+## Gets random number between 0 and Max in sC
+RANDOMNUMBER, 0x0420, 4, -game:FE8 -indexMode:8
+	Maximum Number, 2, 2
+
 # Add slot values (compat format)
 SADD, 0x0620, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
