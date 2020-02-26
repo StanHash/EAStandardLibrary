@@ -67,15 +67,13 @@ STAL2, 0x0E22, 4, -game:FE8 -indexMode:8
 STAL3, 0x0E23, 4, -game:FE8 -indexMode:8
 	Value1, 2, 2
 
-#All parameters always zero
-#Preparing to change colors of something (units, background,etc)
+EVBIT_MODIFY, 0x1020, 4, -game:FE8 -indexMode:8
+	Operation to perform, 2, 2
+
 STARTFADE, 0x1860, 12, -game:FE8 -indexMode:8
 
-#Used after fading back to normal colors
 ENDFADE, 0x1861, 12, -game:FE8 -indexMode:8
 
-#Smoothly alters colors of some things to the leves of RGB defined below.
-#Known values of Target are 0x11D for all enemy units, 0xA06 for background, 0x000 for everything
 FADECOLORS, 0x1862, 12, -game:FE8 -indexMode:8
 	Target, 2, 2
 	Speed, 4, 2

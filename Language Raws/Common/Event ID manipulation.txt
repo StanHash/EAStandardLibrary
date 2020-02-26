@@ -16,13 +16,3 @@ ENUT, 0x76, 4, -game:FE7 -indexMode:8
 
 ENUF, 0x77, 4, -game:FE7 -indexMode:8
 	Event ID, 2, 2
-
-#This command sets and clears multiple bits in the event execution bitfield.
-#What it does is indicated by the parameter.
-#	param 0x0: ANDS with 0xFFBF (FFDF,FFEF,FFBF), clearing bits 5-7
-#	param 0x1: ORRs with 0x70 (10,20,40), setting bits 5-7
-#	param 0x2: Sets bit 7, clears bits 5-6
-#	param 0x3: Sets bit 5, clears bits 6-7
-#	param 0x4: Sets bits 5-6, clears bit 7
-EVBIT_MODIFY, 0x1020, 4, -game:FE8 -indexMode:8
-	Operation to perform, 2, 2
