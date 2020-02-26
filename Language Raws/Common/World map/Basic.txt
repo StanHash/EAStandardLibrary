@@ -1,7 +1,0 @@
-
-#Chapters: Tutorial, 1, 2...
-##Execute ASM code in world map.
-ASMWORLDMAP, 0x4B, 8, -game:FE6 -indexMode:8
-##Offset of the ASM routine. Thumb routines
-##need to be added 1.
-	Pointer, 4, 4, -pointer:ASM
