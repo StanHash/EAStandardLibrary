@@ -6,10 +6,6 @@ GOTO_IFEF, 0x23, 12, -game:FE6 -indexMode:8
 	Event ID, 4, 4
 	Value, 8, 4
 
-GOTO_IFEF, 0x4D, 12, -game:FE7 -indexMode:8
-	Conditional ID, 4, 2
-	Event ID, 8, 2
-
 
 #Chapters: 4, 7, 9...
 ##Branches if Event ID is true
@@ -17,38 +13,3 @@ GOTO_IFET, 0x22, 12, -game:FE6 -indexMode:8
 ##Evend ID to check.
 	Event ID, 4, 4
 	Value, 8, 4
-
-GOTO_IFET, 0x4C, 12, -game:FE7 -indexMode:8
-	Conditional ID, 4, 2
-	Event ID, 8, 2
-
-
-##Branches if not hector mode
-GOTO_IFNHM, 0x4F, 8, -game:FE7 -indexMode:8
-	Conditional ID, 4, 2
-
-##Branches if not eliwood mode
-GOTO_IFNEM, 0x50, 8, -game:FE7 -indexMode:8
-	Conditional ID, 4, 2
-
-##Executes events if based on previous convos
-##Yes/No choice.
-GOTO_IFNO, 0x52, 8, -game:FE7 -indexMode:8
-	Conditional ID, 4, 2
-
-##Executes events if based on previous convos
-##Yes/No choice.
-GOTO_IFYES, 0x53, 8, -game:FE7 -indexMode:8
-	Conditional ID, 4, 2
-
-
-##Jumps if not tutorial mode
-GOTO_IFNTUTORIAL, 0x54, 8, -game:FE7 -indexMode:8
-	Conditional ID, 4, 2
-
-##Branches if it's given turn or after
-GOTO_IFTU, 0x56, 8, -game:FE7 -indexMode:8
-	Conditional ID, 4, 2
-##Turn to check.
-	Turn, 2, 2, -preferredBase:10
-
