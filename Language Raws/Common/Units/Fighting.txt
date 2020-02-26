@@ -125,22 +125,3 @@ BLDT, 0, 32, -game:FE6 -priority:battleData -indexMode:1
 
 BLDT, 0, 4, -game:FE6:FE7 -indexMode:8 -priority:battleData -end
 	0x800000, 0, 4, -fixed
-
-
-##Starts a fight between 2 units.
-FIG1, 0x3F40, 8, -game:FE8 -indexMode:8
-##Character ID of the attacker.
-	Attacker, 2, 2
-##Character ID of the defender.
-	Defender, 4, 2
-##Unknown
-	Unknown, 6, 2
-
-##Starts a fight between 2 units.
-FIG2, 0x3F41, 8, -game:FE8 -indexMode:8
-##Character ID of the attacker.
-	Attacker, 2, 2
-##Character ID of the defender.
-	Defender, 4, 2
-##Unknown
-	Unknown, 6, 2

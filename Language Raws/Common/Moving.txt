@@ -80,25 +80,6 @@ REPOS, 0x2F, 12, -game:FE7 -indexMode:8
 	Character, 4, 4
 	New position, 8, 4, -coordinates:2 -preferredBase:10 -signed
 
-
-#Movement codes
-MOVE, 0x2F40, 8, -game:FE8 -indexMode:8
-	Speed, 2, 2
-	Character, 4, 2
-	Position to move to, 6, 2, -coordinate:2 -preferredBase:10
-
-MOVEONTO, 0x2F41, 8, -game:FE8 -indexMode:8
-	Speed, 2, 2
-	Mover, 4, 2
-	Target Character, 6, 2
-
-MOVE_1STEP, 0x2F42, 8, -game:FE8 -indexMode:8
-	Speed, 2, 2
-	Character, 4, 2
-	Direction, 6, 2
-
-
-
 ##Move manual which controls movement of a unit.
 MOMA, 0, 1, -game:FE6:FE7 -indexMode:8 -terminatingList:04 -end -priority:moveManual -offsetMod:1
 ##Action to to do, including moving, speed changing and other stuff.
