@@ -1,17 +1,3 @@
-#Chapters: 10A
-##Gives item to a character.
-ITGC, 0x27, 12, -game:FE6 -indexMode:8
-##Character to give item.
-	Character, 4, 4
-##Item to give to the character.
-	Item, 8, 4
-
-
-##Gives item to the current character, like
-##in villages.
-ITGV, 0x26, 8, -game:FE6 -indexMode:8
-##Item to give to the current character.
-	Item, 4, 2
 
 ##List of items used by a shop.
 SHLI, 0, 0, -game:FE6:FE7:FE8 -indexMode:8 -terminatingList:00 -end -priority:shopList -offsetMod:1

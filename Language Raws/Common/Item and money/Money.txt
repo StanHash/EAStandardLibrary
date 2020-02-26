@@ -1,3 +1,0 @@
-
-MONE, 0x28, 8, -game:FE6 -indexMode:8
-	Amount of money, 4, 2, -preferredBase:10

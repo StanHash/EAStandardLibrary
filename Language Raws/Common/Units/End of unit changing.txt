@@ -1,4 +1,0 @@
-
-##Makes game wait until movement, loading and other 
-##unit changing events end.
-ENUN, 0x14, 4, -game:FE6 -indexMode:8

@@ -1,6 +1,0 @@
-##Changes units affiliation.
-CUSI, 0x2B, 12, -game:FE6 -indexMode:8
-##Character whose affiliation to change.
-	Character, 4, 2
-##Affiliation to change to.
-	Affiliation, 8, 2

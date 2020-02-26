@@ -1,34 +1,3 @@
-#Chapetrs: 13
-##Causes a battle between 2 units.
-FIGH, 0x49, 20, -game:FE6 -indexMode:8
-##Character ID of the attacker.
-	Attacker, 4, 4
-##Character ID of the defender.
-	Defender, 8, 4
-##Pointer to BLDT codes that determine how fight goes.
-	Battle data pointer, 12, 4, -pointer:battleData
-##Controls additional details about the battle.
-	Battle parameter 1, 16, 1
-##Controls additional details about the battle.
-	Battle parameter 2, 17, 1
-##Controls additional details about the battle.
-	Battle parameter 3, 18, 1
-##Controls additional details about the battle.
-	Battle parameter 4, 19, 1
-
-FIGH, 0x49, 20, -game:FE6 -indexMode:8
-	Attacker, 4, 4
-	Defender, 8, 4
-	Battle data pointer, 12, 4, -pointer:battleData
-##Controls additional details about the battle.
-	Battle parameter, 16, 4, -coordinate:4
-
-FIGH, 0x49, 20, -game:FE6 -indexMode:8
-	Attacker, 4, 4
-	Defender, 8, 4
-	Battle data pointer, 12, 4, -pointer:battleData
-	Battle parameter, 16, 4
-
 ##Controls individual attack in battle. For parameters
 ##that are in a form of a question, 1 means yet and 0 means no.
 ##Parameters with ? are unsure.
