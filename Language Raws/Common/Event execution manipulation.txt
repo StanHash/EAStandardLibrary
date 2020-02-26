@@ -1,4 +1,0 @@
-
-#Chapters: None
-JUMP, 0x25, 8, -game:FE6 -indexMode:8
-	Event pointer, 4, 4, -pointer:none

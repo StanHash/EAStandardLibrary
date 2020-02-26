@@ -1,4 +1,0 @@
-##Moves to a chapter through save-dialog.
-MNCH, 0x3D, 8, -game:FE6 -indexMode:8
-##Chapter to move to.
-	Chapter ID, 4, 4

@@ -1,5 +1,0 @@
-##Code that calls ASM routine in events.
-ASMC, 0x17, 8, -language:FE6 -repeatable -indexMode:8
-##Offset of the ASM routine. Thumb routines
-##need to be added 1.
-	Offset, 4, 4, -pointer:ASM

@@ -1,7 +1,0 @@
-
-#Chapters: 3
-##Branch if character is active.
-GOTO_IFCA, 0x24, 12, -game:FE6 -indexMode:8
-	Conditional ID, 4, 4
-##Character to check.
-	Character, 8, 4
