@@ -37,17 +37,3 @@ MAC2, 0x29, 8, -game:FE6 -indexMode:8
 MACC, 0x2A, 8, -game:FE6 -indexMode:8
 ##Position of the map change.
 	Position, 4, 2, -coordinates:2 -preferredBase:10
-
-#Can be one of two formats;
-#_SETVAL 0xB 0xYY00XX// [XX,YY] coordinates of top left corner
-#TILECHANGE 0xFFFF
-#
-#or:
-#_SETVAL 0x1 ID//Tile Change ID
-#TILECHANGE 0x0
-TILECHANGE, 0x2720, 4, -game:FE8 -indexMode:8
-	Value1, 2, 2
-
-#The same, but undoes the selected tile change
-TILEREVERSE, 0x2721, 4, -game:FE8 -indexMode:8
-	Value1, 2, 2

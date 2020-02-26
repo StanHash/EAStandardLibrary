@@ -2,75 +2,6 @@
 # This contains raw aliases that I (Stan) consider to be better to the existing ones.
 # This is provided separately (perhaps "for now" for some of them) because "better" may be subjective.
 
-## Get's the Chapter Number associated with the map/location you're on.
-CHECK_CHAPTERID, 0x1921, 4, -game:FE8 -indexMode:8
-
-## Boolean check for Difficult Mode.
-CHECK_ISHARD, 0x1922, 4, -game:FE8 -indexMode:8
-
-## Stores current turn number to slot 0xC.
-CHECK_TURNNUMBER, 0x1923, 4, -game:FE8 -indexMode:8
-
-## Counts up number of enemies on the map
-CHECK_COUNT_RED, 0x1924, 4, -game:FE8 -indexMode:8
-
-## Counts up number of NPCs on the map
-CHECK_COUNT_GREEN, 0x1925, 4, -game:FE8 -indexMode:8
-
-## Gets 1 if you are in a skirmish or dungeon. Used for the Retreat command.
-CHECK_ISSKIRMISH, 0x1926, 4, -game:FE8 -indexMode:8
-
-## Gets 1 if tutorials are enabled (i.e. Easy Mode)
-CHECK_ISTUTORIAL, 0x1927, 4, -game:FE8 -indexMode:8
-
-## Loads the Event ID associated with the current event to slot 0xC.
-CHECK_ACTIVE_FLAG, 0x1929, 4, -game:FE8 -indexMode:8
-
-## Checks your Mode byte; likely checks to see if you are in the postgame.
-CHECK_ISPOSTGAME, 0x192A, 4, -game:FE8 -indexMode:8
-
-
-HIDEMAP, 0x2320, 4, -game:FE8 -indexMode:8
-
-SHOWMAP, 0x2420, 4, -game:FE8 -indexMode:8
-
-LOADMAP, 0x2520, 4, -game:FE8 -indexMode:8
-	ChapterId, 2, 2, -preferredBase:10
-
-## Moves camera such that given position is visible
-CAMERA, 0x2620, 4, -game:FE8 -indexMode:8
-	Position, 2, 2, -coordinates:2 -preferredBase:10
-
-## Moves camera such that given character is visible
-CAMERA, 0x2621, 4, -game:FE8 -indexMode:8
-	Character, 2, 2
-
-## Moves camera such that position in sB is visible
-CAMERA_SB, 0x2620, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed
-
-## Centers camera on given position
-CAMERA_CENTERED, 0x2628, 4, -game:FE8 -indexMode:8
-	Position, 2, 2, -coordinates:2 -preferredBase:10
-
-## Centers camera on given character
-CAMERA_CENTERED, 0x2629, 4, -game:FE8 -indexMode:8
-	Character, 2, 2
-
-## Centers camera on position in sB
-CAMERA_CENTERED_SB, 0x2628, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed
-
-TILEREVERT, 0x2721, 4, -game:FE8 -indexMode:8
-	MapChangeId, 2, 2, -preferredBase:10
-
-WEATHER, 0x2820, 4, -game:FE8 -indexMode:8
-	WeatherId, 2, 2, -preferredBase:10
-
-FOGVISION, 0x2920, 4, -game:FE8 -indexMode:8
-	Vision, 2, 2, -preferredBase:10
-
-
 ## Sets amount of units to load for next load
 LOADCONFIG_COUNT, 0x2B20, 4, -game:FE8 -indexMode:8
 	UnitCount, 2, 2
@@ -229,52 +160,6 @@ SET_AI, 0x3921, 4, -game:FE8 -indexMode:8
 SET_AI_SB, 0x3921, 4, -game:FE8 -indexMode:8
 	0xFFFF, 2, 2, -fixed
 
-
-## Display cursor sprite on given position
-CURSOR, 0x3B20, 4, -game:FE8 -indexMode:8
-	Position, 2, 2, -coordinate:2 -preferredBase:10
-
-## Display cursor sprite on position in sB
-CUSOR_SB, 0x3B20, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed
-
-## Display cursor sprite on unit corresponding to given character
-CURSOR, 0x3B21, 4, -game:FE8 -indexMode:8
-	CharId, 2, 2
-
-## Removes every displayed cursor sprites
-REMOVE_CURSORS, 0x3B22, 4, -game:FE8 -indexMode:8
-
-## Display flashing cursor sprite on given position
-CURSOR_FLASHING, 0x3B24, 4, -game:FE8 -indexMode:8
-	Position, 2, 2, -coordinate:2 -preferredBase:10
-
-## Display flashing cursor sprite on position in sB
-CURSOR_FLASHING_SB, 0x3B24, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed
-
-## Display flashing cursor sprite on unit corresponding to given character
-CURSOR_FLASHING, 0x3B25, 4, -game:FE8 -indexMode:8
-	CharId, 2, 2
-
-## Gets player cursor position in sC
-CHECK_CURSOR, 0x3C20, 4, -game:FE8 -indexMode:8
-
-## Sets player cursor position
-SET_CURSOR, 0x3C21, 4, -game:FE8 -indexMode:8
-	Position, 2, 2, -coordinate:2 -preferredBase:10
-
-## Sets player cursor position to value of sB
-SET_CURSOR_SB, 0x3C21, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed
-
-DISABLEOPTIONS, 0x3D20, 4, -game:FE8 -indexMode:8
-	OptionBits, 2, 2, -preferredBase:2
-
-DISABLEWEAPONS, 0x3D21, 4, -game:FE8 -indexMode:8
-	WeaponBits, 2, 2, -preferredBase:2
-
-PREPSCREEN, 0x3E20, 4, -game:FE8 -indexMode:8
 
 FIGHT, 0x3F40, 8, -game:FE8 -indexMode:8
 	AttackCharId, 2, 2

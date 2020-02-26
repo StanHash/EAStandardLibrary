@@ -7,9 +7,9 @@
 NOP, 0x0020, 4, -game:FE8 -indexMode:8
 
 ## Ends scene and return to calling scene (if any).
-ENDA, 0x0120, 4, -game:FE8 -end -indexMode:8
+END, 0x0120, 4, -game:FE8 -end -indexMode:8
 
-## [ENDA Alias] Ends scene and return to calling scene (if any).
+## [END Alias] Ends scene and return to calling scene (if any).
 RET, 0x0120, 4, -game:FE8 -end -indexMode:8
 
 ## Ends scene without returning to calling scene.
@@ -94,6 +94,9 @@ GOTO_EPILOGUE, 0x2A24, 4, -game:FE8 -indexMode:8
 # ======================
 # = COMPATIBILITY RAWS =
 # ======================
+
+## Ends scene and return to calling scene (if any).
+ENDA, 0x0120, 4, -game:FE8 -end -indexMode:8
 
 ## Ends scene without returning to calling scene.
 ENDB, 0x0121, 4, -game:FE8 -end -indexMode:8

@@ -36,6 +36,3 @@ COORDS, 0, 4, -priority:coordList -language:FE7 -indexMode:8
 	Position, 0, 2, -coordinates:2 -preferredBase:10
 
 END, 0xFF, 4, -priority:coordList -language:FE7 -indexMode:8 -end
-
-#Opens prep screen. Involved in the events pointed to by the GotoPrepScreen macro
-PREP, 0x3E20, 4, -game:FE8 -indexMode:8
