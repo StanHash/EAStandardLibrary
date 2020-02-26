@@ -4,7 +4,3 @@ CUSI, 0x2B, 12, -game:FE6 -indexMode:8
 	Character, 4, 2
 ##Affiliation to change to.
 	Affiliation, 8, 2
-
-CUSI, 0x65, 12, -game:FE7 -indexMode:8
-	Character, 4, 2
-	Affiliation, 8, 2
