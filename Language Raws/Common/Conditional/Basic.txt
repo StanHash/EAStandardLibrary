@@ -5,9 +5,6 @@ GOTO, 0x1C, 8, -game:FE6 -indexMode:8
 GOTO, 0x45, 8, -game:FE7 -indexMode:8
 	Conditional ID, 4, 2
 
-GOTO, 0x920, 4, -game:FE8 -indexMode:8
-	Conditional ID, 2, 2
-
 ##Labels (target for conditional branches)
 LABEL, 0x1B, 8, -game:FE6 -indexMode:8
 	Conditional ID, 4, 2
@@ -15,10 +12,6 @@ LABEL, 0x1B, 8, -game:FE6 -indexMode:8
 LABEL, 0x44, 8, -game:FE7 -indexMode:8
 	Conditional ID, 4, 2
 
-LABEL, 0x820, 4, -game:FE8 -indexMode:8
-	Conditional ID, 2, 2
-
-	
 ##These commands store the results of their checks to memory slot 0xC.
 ##Some are boolean checks, and others store ints.
 #
@@ -53,41 +46,3 @@ CHECK_POSTGAME, 0x192A, 4, -game:FE8 -indexMode:8
 
 ##Get's the Chapter Number associated with the map/location you're on.
 CHECK_CHAPTER_NUMBER, 0x1921, 4, -game:FE8 -indexMode:8
-
-## These commands compare two memory slots and branch to LABEL *conditional ID* if the condition is met
-#
-##Branch if equal
-BEQ, 0xC40, 8, -game:FE8 -indexMode:8
-	Conditional ID, 2, 2
-	Memory Slot 1, 4, 2
-	Memory Slot 2, 6, 2
-
-##Branch if not equal
-BNE, 0xC41, 8, -game:FE8 -indexMode:8
-	Conditional ID, 2, 2
-	Memory Slot 1, 4, 2
-	Memory Slot 2, 6, 2
-
-##Branch if greater than or equal
-BGE, 0xC42, 8, -game:FE8 -indexMode:8
-	Conditional ID, 2, 2
-	Memory Slot 1, 4, 2
-	Memory Slot 2, 6, 2
-
-##Branch if greater than
-BGT, 0xC43, 8, -game:FE8 -indexMode:8
-	Conditional ID, 2, 2
-	Memory Slot 1, 4, 2
-	Memory Slot 2, 6, 2
-
-##Branch if less than or equal
-BLE, 0xC44, 8, -game:FE8 -indexMode:8
-	Conditional ID, 2, 2
-	Memory Slot 1, 4, 2
-	Memory Slot 2, 6, 2
-
-##Branch if less than
-BLT, 0xC45, 8, -game:FE8 -indexMode:8
-	Conditional ID, 2, 2
-	Memory Slot 1, 4, 2
-	Memory Slot 2, 6, 2

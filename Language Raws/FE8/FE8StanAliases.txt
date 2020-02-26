@@ -2,22 +2,6 @@
 # This contains raw aliases that I (Stan) consider to be better to the existing ones.
 # This is provided separately (perhaps "for now" for some of them) because "better" may be subjective.
 
-## Clears given flag
-FLAG_F, 0x0221, 4, -game:FE8 -indexMode:8
-	Flag, 2, 2, -preferredBase:10
-
-## Clears given flag
-FLAG_T, 0x0229, 4, -game:FE8 -indexMode:8
-	Flag, 2, 2, -preferredBase:10
-
-## Gets flag state in sC
-CHECK_FLAG, 0x0321, 4, -game:FE8 -indexMode:8
-	Flag, 2, 2, -preferredBase:10
-
-## Gets random number between 0 and Max in sC
-CHECK_RAND, 0x0420, 4, -game:FE8 -indexMode:8
-	Max, 2, 2, -preferredBase:10
-
 ## Stall for x frames (skippable with B)
 STAL_SKIP, 0x0E21, 4, -game:FE8 -indexMode:8
 	Amount, 2, 2, -preferredBase:10

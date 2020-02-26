@@ -17,29 +17,6 @@ ENUT, 0x76, 4, -game:FE7 -indexMode:8
 ENUF, 0x77, 4, -game:FE7 -indexMode:8
 	Event ID, 2, 2
 
-ENUT, 0x0229, 4, -game:FE8 -indexMode:8
-	EventID, 2, 2
-
-#Makes event of ID stored in Memory slot 2 used.
-ENUT_SLOT2, 0x0229, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed
-
-ENUF, 0x0221, 4, -game:FE8 -indexMode:8
-	EventID, 2, 2
-
-#Makes event ID stored in Memory slot 2 unused.
-ENUF_SLOT2, 0x0221, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed
-
-#Sets (param+1)th bit in event execution bitfield.
-#Parameter cannot be higher than 0xF.
-EVBIT_T, 0x0228, 4, -game:FE8 -indexMode:8
-	Bit, 2, 2
-
-#Clears (param+1)th bit in event execution bitfield.
-EVBIT_F, 0x0220, 4, -game:FE8 -indexMode:8
-	Bit, 2, 2
-
 #This command sets and clears multiple bits in the event execution bitfield.
 #What it does is indicated by the parameter.
 #	param 0x0: ANDS with 0xFFBF (FFDF,FFEF,FFBF), clearing bits 5-7

@@ -52,14 +52,3 @@ GOTO_IFTU, 0x56, 8, -game:FE7 -indexMode:8
 ##Turn to check.
 	Turn, 2, 2, -preferredBase:10
 
-#Checks if Event ID is set. A parameter of 0xFFFF will check the Event ID associated with the current event.
-#Result (0 or 1) is stored to memory slot 0xC.
-CHECK_EVENTID, 0x0321, 4, -game:FE8 -indexMode:8
-	EventID, 2, 2
-
-#Checks for (parameter)th bit set in event execution bitfield.
-#Stores 0x1 to memory slot 0xC if the bit is set, and stores 0x0 otherwise.
-#Parameter cannot be higher than 0xF.
-CHECK_EVBIT, 0x0320, 4, -game:FE8 -indexMode:8
-	Bit, 2, 2
-
