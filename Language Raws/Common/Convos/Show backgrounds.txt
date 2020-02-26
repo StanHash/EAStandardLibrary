@@ -1,6 +1,0 @@
-#Shows backgrounds for text convos.
-##Shows background.
-BACG, 3, 8, -game:FE6 -indexMode:8
-##Background to show.
-	Background, 4, 2
-

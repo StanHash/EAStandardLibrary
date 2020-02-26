@@ -1,6 +1,0 @@
-##Halts event execution for a while.
-##Things like unit movement, animations
-##and others continue normally while stalled.
-STAL, 2, 8, -game:FE6 -repeatable -indexMode:8
-##Amount of frames to stall.
-	Time to stall, 4, 4, -preferredBase:10

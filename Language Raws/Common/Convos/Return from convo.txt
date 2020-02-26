@@ -1,4 +1,0 @@
-
-##Remove text bubbles, backgrounds and portraits
-##and returns to map.
-REMA, 5, 4, -game:FE6 -indexMode:8
