@@ -12,10 +12,3 @@ WARP, 0xCD, 12, -game:FE7 -indexMode:8
 ##Character to do the warp animation on.
 	Character, 4, 4
 	In or out, 8, 1
-
-#Uses the coord data in rB
-WARP_OUT, 0x4120, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed
-
-WARP_IN, 0x4121, 4, -game:FE8 -indexMode:8
-	0xFFFF, 2, 2, -fixed

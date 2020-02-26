@@ -209,10 +209,10 @@ CHECK_ISINAREA, 0x3640, 8, -game:FE8 -indexMode:8
 	TopLeftPos, 4, 2, -coordinates:2 -preferredBase:10
 	Size,       6, 2, -coordinates:2 -preferredBase:10
 
-ITEM, 0x3720, 4, -game:FE8 -indexMode:8
+GIVEITEM, 0x3720, 4, -game:FE8 -indexMode:8
 	CharId, 2, 2
 
-MONEY, 0x3721, 4, -game:FE8 -indexMode:8
+GIVEMONEY, 0x3721, 4, -game:FE8 -indexMode:8
 	CharId, 2, 2
 
 TAKEMONEY, 0x3722, 4, -game:FE8 -indexMode:8
@@ -347,6 +347,14 @@ CHECK_INAREA, 0x3640, 8, -game:FE8 -indexMode:8
 	Char,       2, 2
 	TopLeftPos, 4, 2, -coordinates:2 -preferredBase:10
 	Size,       6, 2, -coordinates:2 -preferredBase:10
+
+GIVEITEMTO, 0x3720, 4, -game:FE8 -indexMode:8
+	Character, 2, 2
+
+GIVEITEMTOMAIN, 0x3721, 4, -game:FE8 -indexMode:8
+	Village or cutscene, 2, 2
+
+GIVETOSLOT3, 0x3722, 4, -game:FE8 -indexMode:8
 
 CHAI, 0x3920, 4, -game:FE8 -indexMode:8
 	Character, 2, 2
