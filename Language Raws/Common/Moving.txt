@@ -1,5 +1,0 @@
-
-##Move manual which controls movement of a unit.
-MOMA, 0, 1, -game:FE6:FE7 -indexMode:8 -terminatingList:04 -end -priority:moveManual -offsetMod:1
-##Action to to do, including moving, speed changing and other stuff.
-	Action, 0, 1
