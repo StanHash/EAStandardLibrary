@@ -14,7 +14,7 @@ FIRE, 0, 6, -language:FE7:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod
 ##Inital Timer
 	TimerStart, 4, 1
 ##Repeat Timer
-	TimerRepeat, 5, 2
+	TimerRepeat, 5, 1
 
 ##Gas trap
 GAST, 0, 6, -language:FE7:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
@@ -26,7 +26,7 @@ GAST, 0, 6, -language:FE7:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod
 ##Inital Timer
 	TimerStart, 4, 1
 ##Repeat Timer
-	TimerRepeat, 5, 2
+	TimerRepeat, 5, 1
 
 ##Vertical arrow
 ARROW, 0, 6, -language:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
@@ -36,7 +36,7 @@ ARROW, 0, 6, -language:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
 ##Inital Timer
 	TimerStart, 4, 1
 ##Repeat Timer
-	TimerRepeat, 5, 2
+	TimerRepeat, 5, 1
 
 ##Instant fire - may work in FE7 as well but untested
 FIRE2, 0, 6, -language:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
