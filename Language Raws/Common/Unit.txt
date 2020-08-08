@@ -7,7 +7,7 @@
 # ====================
 
 # full unit
-UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
+UNIT, 0, 16, -game:FE6:FE7:FE7J -priority:unit -indexMode:8
 	CharId, 0, 1
 	ClassId, 1, 1
 	LeaderId, 2, 1
@@ -18,7 +18,7 @@ UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
 	AI, 12, 4, -coordinate:1-4
 
 # no leader
-UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
+UNIT, 0, 16, -game:FE6:FE7:FE7J -priority:unit -indexMode:8
 	CharId, 0, 1
 	ClassId, 1, 1
 	LevelAllAuto, 3, 1
@@ -28,7 +28,7 @@ UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
 	AI, 12, 4, -coordinate:1-4
 
 # no ai
-UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
+UNIT, 0, 16, -game:FE6:FE7:FE7J -priority:unit -indexMode:8
 	CharId, 0, 1
 	ClassId, 1, 1
 	LeaderId, 2, 1
@@ -38,7 +38,7 @@ UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
 	Items, 8, 4, -coordinate:1-4
 
 # no leader, no ai
-UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
+UNIT, 0, 16, -game:FE6:FE7:FE7J -priority:unit -indexMode:8
 	CharId, 0, 1
 	ClassId, 1, 1
 	LevelAllAuto, 3, 1
@@ -48,15 +48,15 @@ UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
 
 ## Unit data that controls units that can be loaded to chapter maps.
 ## Parameterless version is the end of UNIT list.
-UNIT, 0, 16, -game:FE6:FE7 -priority:unit -end -indexMode:8
+UNIT, 0, 16, -game:FE6:FE7:FE7J -priority:unit -end -indexMode:8
 
-ENDUNIT, 0, 16, -game:FE6:FE7 -priority:unit -end -indexMode:8
+ENDUNIT, 0, 16, -game:FE6:FE7:FE7J -priority:unit -end -indexMode:8
 
 # ======================
 # = COMPATIBILITY RAWS =
 # ======================
 
-UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
+UNIT, 0, 16, -game:FE6:FE7:FE7J -priority:unit -indexMode:8
 	Char ID, 0, 1
 	Class ID, 1, 1
 	Leader char, 2, 1
@@ -68,7 +68,7 @@ UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
 	RecoveryAI, 14, 1
 	DontMoveAI, 15, 1
 
-UNIT, 0, 16, -game:FE6:FE7 -priority:unit -indexMode:8
+UNIT, 0, 16, -game:FE6:FE7:FE7J -priority:unit -indexMode:8
 	Char ID, 0, 1
 	Class ID, 1, 1
 	Leader char, 2, 1
