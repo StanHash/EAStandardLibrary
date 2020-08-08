@@ -11,7 +11,7 @@ FIRE, 0, 6, -language:FE7:FE7J:FE8 -unsafe -priority:ballista -indexMode:8 -offs
 	4, 0, 1, -fixed 
 	Position, 1, 2, -coordinates:2 -preferredBase:10
 	TimerStart, 4, 1
-	TimerRepeat, 5, 2
+	TimerRepeat, 5, 1
 
 ##Gas trap
 GAST, 0, 6, -language:FE7:FE7J:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
@@ -19,14 +19,14 @@ GAST, 0, 6, -language:FE7:FE7J:FE8 -unsafe -priority:ballista -indexMode:8 -offs
 	Position, 1, 2, -coordinates:2 -preferredBase:10
 	Direction, 3, 1
 	TimerStart, 4, 1
-	TimerRepeat, 5, 2
+	TimerRepeat, 5, 1
 
 ##Vertical arrow
 ARROW, 0, 6, -language:FE7:FE7J:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
 	7, 0, 1, -fixed 
 	X coordinate, 1, 1, -coordinates:2 -preferredBase:10
 	TimerStart, 4, 1
-	TimerRepeat, 5, 2
+	TimerRepeat, 5, 1
 
 ##Instant fire
 FIRE2, 0, 6, -language:FE7:FE7J:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
