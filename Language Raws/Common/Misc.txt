@@ -52,7 +52,7 @@ BLDT, 0, 32, -game:FE6:FE7:FE7J -priority:battleData -indexMode:1
 BLDT, 0, 4, -game:FE6:FE7:FE7J -indexMode:8 -priority:battleData -end
 	0x800000, 0, 4, -fixed
 
-COORDS, 0, 4, -priority:coordList -language:FE7:FE7J -indexMode:8
+COORDS, 0, 4, -priority:coordList -game:FE7:FE7J -indexMode:8
 	Position, 0, 2, -coordinates:2 -preferredBase:10
 
-ENDCOORDS, 0xFF, 4, -priority:coordList -language:FE7:FE7J -indexMode:8 -end
+ENDCOORDS, 0xFF, 4, -priority:coordList -game:FE7:FE7J -indexMode:8 -end

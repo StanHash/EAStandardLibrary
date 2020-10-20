@@ -68,7 +68,7 @@ BLT, 0x0C45, 8, -game:FE8 -indexMode:8
 	SlotRight, 6, 2
 
 ## Calls native/ASM function (arg r0 = event engine proc)
-ASMC, 0x0D40, 8, -language:FE8 -repeatable -indexMode:8
+ASMC, 0x0D40, 8, -game:FE8 -repeatable -indexMode:8
 	Offset, 4, 4, -pointer:ASM
 
 ## Return to title screen
@@ -102,7 +102,7 @@ ENDA, 0x0120, 4, -game:FE8 -end -indexMode:8
 ENDB, 0x0121, 4, -game:FE8 -end -indexMode:8
 
 ## Strictly the same as ASMC
-ASMC2, 0x0D41, 8, -language:FE8 -repeatable -indexMode:8
+ASMC2, 0x0D41, 8, -game:FE8 -repeatable -indexMode:8
 	Offset, 4, 4, -pointer:ASM
 
 ## Return to title screen
