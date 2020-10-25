@@ -1,6 +1,6 @@
 ENDA,0xa, 8, -game:FE7J -end -indexMode:8
 ENDB,0xb, 8, -game:FE7J -end -indexMode:8
-ASMC,0x3c, 8, -language:FE7J -repeatable -indexMode:8
+ASMC,0x3c, 8, -game:FE7J -repeatable -indexMode:8
 	Offset, 4, 4, -pointer:ASM
 LABEL,0x42, 8, -game:FE7J -indexMode:8
 	Conditional ID, 4, 2
