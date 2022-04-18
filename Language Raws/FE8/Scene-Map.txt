@@ -89,7 +89,7 @@ SET_CURSOR_SB, 0x3C21, 4, -game:FE8 -indexMode:8
 # ======================
 
 LOMA, 0x2520, 4, -game:FE8 -indexMode:8
-	Chapter ID, 2, 1
+	Chapter ID, 2, 2
 
 CAM1, 0x2628, 4, -game:FE8 -indexMode:8
 	Position, 2, 2, -coordinates:2 -preferredBase:10
@@ -101,10 +101,10 @@ TILEREVERSE, 0x2721, 4, -game:FE8 -indexMode:8
 	MapChangeId, 2, 2, -preferredBase:10
 
 WEA1, 0x2821, 4, -game:FE8 -indexMode:8
-	Weather type ID, 2, 1
+	Weather type ID, 2, 2
 
 VCWF, 0x2920, 4, -game:FE8 -indexMode:8
-	Vision distance, 2, 1, -preferredBase:10
+	Vision distance, 2, 2, -preferredBase:10
 
 ##Move cursor.
 CUMO, 0x3B20, 4, -game:FE8 -indexMode:8
